@@ -1,0 +1,8 @@
+Main.o: Main.cpp Main.hpp Point2f.hpp Ball.hpp Peg.hpp Arena.hpp \
+ Collisions.hpp
+Point2f.o: Point2f.cpp Point2f.hpp
+Ball.o: Ball.cpp Ball.hpp Point2f.hpp
+Arena.o: Arena.cpp Arena.hpp Point2f.hpp
+Collisions.o: Collisions.cpp Collisions.hpp Ball.hpp Point2f.hpp \
+ Arena.hpp Peg.hpp Main.hpp
+Peg.o: Peg.cpp Peg.hpp Point2f.hpp Ball.hpp
